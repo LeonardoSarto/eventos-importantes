@@ -130,8 +130,6 @@ async function previousMusic() {
     }
 }
 
-audio[indiceAudio].volume = 0.5
-
 document.getElementById("customRange").value = audio[indiceAudio].volume * 100
 document.getElementById("customRange").addEventListener("input", function(e) {
     audio[indiceAudio].volume = this.value / 100;
