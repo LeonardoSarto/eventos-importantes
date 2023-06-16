@@ -118,6 +118,11 @@ nav {
   font-weight: bold;
 }
 
+.countdown-value-senff {
+  font-size: 11vw;
+  font-weight: bold;
+}
+
 .countdown-label {
   font-size: 3vw;
   position: absolute;
